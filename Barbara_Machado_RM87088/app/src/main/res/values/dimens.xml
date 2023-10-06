@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quinze">15dp</dimen>
+    <dimen name="vintecinco">25dp</dimen>
+    <dimen name="cinquenta">50dp</dimen>
+    <dimen name="vinte">20dp</dimen>
+    <dimen name="centoquarenta">140dp</dimen>
+</resources>
