@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Barbara_Machado_RM87088</string>
+    <string name="titulo">Corrida de Cavalos</string>
+    <string name="botaoStart">Iniciar</string>
+    <string name="botaoStop">Parar</string>
+    <string name="cavaloPink">Cavalo Rosa</string>
+    <string name="cavaloPurple">Cavalo Roxo</string>
 </resources>

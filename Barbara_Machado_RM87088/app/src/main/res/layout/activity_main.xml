@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/titulo"
+        android:id="@+id/Titulo"
         android:layout_marginTop="@dimen/quinze"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Corrida de cavalos"
+        android:text="@string/titulo"
         android:textSize="@dimen/vintecinco"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,46 +19,46 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/botaostart"
+        android:id="@+id/botaoStart"
         android:layout_marginTop="@dimen/vinte"
         android:layout_marginLeft="@dimen/cinquenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Iniciar"
+        android:text="@string/botaoStart"
         android:textColor="@color/white"
         android:backgroundTint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/titulo"
+        app:layout_constraintTop_toBottomOf="@id/Titulo"
         />
 
     <Button
-        android:id="@+id/botaostop"
+        android:id="@+id/botaoStop"
         android:layout_marginTop="@dimen/vinte"
         android:layout_marginRight="@dimen/cinquenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Parar"
+        android:text="@string/botaoStop"
         android:textColor="@color/white"
         android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/titulo"
+        app:layout_constraintTop_toBottomOf="@id/Titulo"
         />
 
     <TextView
-        android:id="@+id/cavalopink"
+        android:id="@+id/cavaloPink"
         android:layout_marginTop="@dimen/vinte"
         android:layout_marginLeft="@dimen/quinze"
         android:layout_marginRight="@dimen/quinze"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cavalo Rosa"
+        android:text="@string/cavaloPink"
         android:textSize="@dimen/vinte"
         android:textColor="@color/pink"
-        app:layout_constraintTop_toBottomOf="@id/botaostart"
+        app:layout_constraintTop_toBottomOf="@id/botaoStart"
         />
 
     <ProgressBar
-        android:id="@+id/barracavalopink"
+        android:id="@+id/cavaloPinkProgressBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/vintecinco"
@@ -66,26 +66,26 @@
         android:layout_marginRight="@dimen/quinze"
         android:layout_centerVertical="true"
         style="?android:attr/progressBarStyleHorizontal"
-        app:layout_constraintTop_toBottomOf="@id/botaostart"
+        app:layout_constraintTop_toBottomOf="@id/botaoStart"
         />
 
 
 
     <TextView
-        android:id="@+id/cavalopurple"
+        android:id="@+id/cavaloPurple"
         android:layout_marginTop="@dimen/vinte"
         android:layout_marginLeft="@dimen/quinze"
         android:layout_marginRight="@dimen/quinze"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cavalo Roxo"
+        android:text="@string/cavaloPurple"
         android:textSize="@dimen/vinte"
         android:textColor="@color/purple"
-        app:layout_constraintTop_toBottomOf="@id/cavalopink"
+        app:layout_constraintTop_toBottomOf="@id/cavaloPink"
         />
 
     <ProgressBar
-        android:id="@+id/barracavalopurple"
+        android:id="@+id/cavaloPurpleProgressBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/vintecinco"
@@ -93,20 +93,20 @@
         android:layout_marginRight="@dimen/quinze"
         android:layout_centerVertical="true"
         style="?android:attr/progressBarStyleHorizontal"
-        app:layout_constraintTop_toBottomOf="@id/cavalopink"
+        app:layout_constraintTop_toBottomOf="@id/cavaloPink"
         />
 
     <TextView
-        android:id="@+id/resultado"
+        android:id="@+id/vencedorTextView"
         android:layout_marginTop="@dimen/vintecinco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="O cavalo X venceu!"
+        android:text=""
         android:textSize="@dimen/vintecinco"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cavalopurple"
+        app:layout_constraintTop_toBottomOf="@id/cavaloPurple"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
